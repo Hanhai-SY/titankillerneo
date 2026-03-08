@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.hanhai.titankillerneo.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityMixin",
+    "InventoryMixin",
+    "LivingEntityMixin",
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
